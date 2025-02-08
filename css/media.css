@@ -1,0 +1,61 @@
+/* medium */
+@media (min-width: 768px){
+    /* section-chefs */
+    .chef-container{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .chefs .card-chef{
+        width: 45%;
+    }
+    /* section-gallery */
+    .gallery .gallery-item{
+        columns: 2;
+    }
+    /* section-contact */
+    .contact .info{
+        columns: 2;
+    }
+}
+/* large */
+@media (min-width: 992px){
+    /* section-header */
+    .navbar .links{
+        display: block;
+    }
+    .menu-toggle{
+        display: none;
+    }
+    .header .header-content .container{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+        gap: 5%;
+    }
+    /* section-chefs */
+    .chef-container{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .chefs .card-chef{
+        width: 30%;
+    }
+    /* section-gallery */
+    .gallery .gallery-item{
+        columns: 3;
+    }
+    /* section-contact */
+    .contact .info{
+        columns: 2;
+    }
+    .contact .contact-form .inp-group{
+        width: 100%;
+        display: flex;
+        gap: 10px;
+    }
+}
